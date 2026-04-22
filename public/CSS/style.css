@@ -1,0 +1,166 @@
+body{
+    background:#0b0a0a;
+    color:white;
+    font-family:Arial;
+}
+
+/* HEADER */
+.tete{
+    padding:20px;
+    text-align:center;
+    background:#111;
+}
+
+.logo span{
+    color:#00ff88;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+    background:linear-gradient(135deg,#111,#222);
+    border-radius:20px;
+}
+
+.hero-text h1{
+    font-size:35px;
+}
+
+.hero-text h2{
+    font-size:45px;
+    color:#00ff88;
+}
+
+.hero-img img{
+    width:300px;
+    border-radius:50%;
+    border:3px solid #00ff88;
+}
+
+/* SECTION */
+section{
+    width:85%;
+    margin:auto;
+    margin-top:30px;
+    background:#111;
+    padding:30px;
+    border-radius:15px;
+}
+
+/* SERVICES */
+.service-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.card{
+    background:#1a1a1a;
+    padding:30px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px #00ff88;
+}
+
+/* PROJETS */
+.projet-card{
+    background:#1a1a1a;
+    padding:20px;
+    margin-top:15px;
+    border-radius:10px;
+    border-left:4px solid #00ff88;
+}
+
+.projet-card h3{
+    color:#00ff88;
+}
+
+/* BOUTONS */
+.btn-edit{
+    display:inline-block;
+    margin-top:10px;
+    margin-right:10px;
+    padding:8px 15px;
+    background:#00ff88;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn-delete{
+    padding:8px 15px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.btn-delete:hover{
+    background:darkred;
+}
+
+/* FORM */
+form{
+    margin-top:10px;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+    border:none;
+}
+
+button{
+    margin-top:10px;
+    padding:10px;
+    background:#00ff88;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    background:#111;
+    padding:30px;
+    text-align:center;
+    margin-top:40px;
+}
+
+.socials a{
+    color:#00ff88;
+    margin:0 10px;
+}
+
+.projet{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#130808;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+.btn-delete{
+    background:rgb(99, 217, 135);
+    color:rgb(0, 0, 0);
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    position: right;
+}
